@@ -1,0 +1,8 @@
+<library path="cube_ca_plugins">
+  <class type="cube_ca_plugins::VehicleDisseminationRules" base_class_type="cube_ca_plugins::DisseminationRules">
+    <description>CAM dissemination rules for vehicle stations.</description>
+  </class>
+  <class type="cube_ca_plugins::RsuDisseminationRules" base_class_type="cube_ca_plugins::DisseminationRules">
+    <description>CAM dissemination rules for RSU stations.</description>
+  </class>
+</library>
