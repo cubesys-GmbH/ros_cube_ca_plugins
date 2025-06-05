@@ -15,3 +15,9 @@ Please refer to the documentation in the header file of `DisseminationRules` for
 
 Users can explicitly request the usage of particular rules, including custom implementations of `DisseminationRules`, by setting the *dissemination_rules_plugin* parameter.
 For example, with the value *"my_plugins::MyDisseminationRules"* the *cube_ca* transmitter instantiates the user's `MyDisseminationRules` object from the *my_plugins* package.
+
+## Example
+
+The *example* directory contains a full example how the *cube-its* image can be customized.
+You can use it as template when you intend to run the *cube_ca* transmission node with your own dissemination rules.
+

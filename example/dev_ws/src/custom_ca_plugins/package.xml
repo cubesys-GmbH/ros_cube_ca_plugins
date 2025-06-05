@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>custom_ca_plugins</name>
+  <version>0.1.0</version>
+  <description>Example for a custom cube_ca_plugin</description>
+  <maintainer email="raphael.riebl@nfiniity.com">Raphael Riebl</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+
+  <depend>cube_ca_plugins</depend>
+  <depend>pluginlib</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
