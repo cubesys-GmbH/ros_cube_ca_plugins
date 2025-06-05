@@ -47,14 +47,7 @@ install(
   RUNTIME DESTINATION bin
 )
 
-ament_export_include_directories(
-  "include/${PROJECT_NAME}"
-)
-ament_export_libraries(
-  cube_ca_plugins
-)
-ament_export_targets(
-  export_${PROJECT_NAME}
-)
+ament_export_targets(export_${PROJECT_NAME} HAS_LIBRARY_TARGET)
+ament_export_dependencies(etsi_its_cam_msgs rclcpp)
 
 ament_package()
