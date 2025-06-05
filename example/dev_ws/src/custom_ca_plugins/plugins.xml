@@ -1,0 +1,5 @@
+<library path="custom_ca_plugins">
+  <class type="custom_ca_plugins::CustomDisseminationRules" base_class_type="cube_ca_plugins::DisseminationRules">
+    <description>Some custom CAM dissemination rules.</description>
+  </class>
+</library>
